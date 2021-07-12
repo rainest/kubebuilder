@@ -23,6 +23,10 @@ rules:
   resources:
   - deployments/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - apps
@@ -49,6 +53,10 @@ rules:
   resources:
   - captains/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - crew.testproject.org
@@ -75,6 +83,10 @@ rules:
   resources:
   - healthcheckpolicies/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - foo.policy.testproject.org
@@ -101,6 +113,10 @@ rules:
   resources:
   - krakens/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - sea-creatures.testproject.org
@@ -127,6 +143,10 @@ rules:
   resources:
   - leviathans/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - sea-creatures.testproject.org
@@ -153,6 +173,10 @@ rules:
   resources:
   - cruisers/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - ship.testproject.org
@@ -179,6 +203,10 @@ rules:
   resources:
   - destroyers/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - ship.testproject.org
@@ -205,6 +233,10 @@ rules:
   resources:
   - frigates/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - ship.testproject.org
@@ -231,6 +263,10 @@ rules:
   resources:
   - lakers/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - testproject.org

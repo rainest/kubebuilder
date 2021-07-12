@@ -35,7 +35,7 @@ type FrigateReconciler struct {
 
 //+kubebuilder:rbac:groups=ship.testproject.org,resources=frigates,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=ship.testproject.org,resources=frigates/status,verbs=get;update;patch
-//+kubebuilder:rbac:groups=ship.testproject.org,resources=frigates/finalizers,verbs=update
+//+kubebuilder:rbac:groups=ship.testproject.org,resources=frigates/finalizers,verbs=get;list;update;create;delete
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.

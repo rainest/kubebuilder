@@ -35,7 +35,7 @@ type HealthCheckPolicyReconciler struct {
 
 //+kubebuilder:rbac:groups=foo.policy.testproject.org,resources=healthcheckpolicies,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=foo.policy.testproject.org,resources=healthcheckpolicies/status,verbs=get;update;patch
-//+kubebuilder:rbac:groups=foo.policy.testproject.org,resources=healthcheckpolicies/finalizers,verbs=update
+//+kubebuilder:rbac:groups=foo.policy.testproject.org,resources=healthcheckpolicies/finalizers,verbs=get;list;update;create;delete
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.

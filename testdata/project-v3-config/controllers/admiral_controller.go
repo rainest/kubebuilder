@@ -35,7 +35,7 @@ type AdmiralReconciler struct {
 
 //+kubebuilder:rbac:groups=crew.testproject.org,resources=admirals,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=crew.testproject.org,resources=admirals/status,verbs=get;update;patch
-//+kubebuilder:rbac:groups=crew.testproject.org,resources=admirals/finalizers,verbs=update
+//+kubebuilder:rbac:groups=crew.testproject.org,resources=admirals/finalizers,verbs=get;list;update;create;delete
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.

@@ -23,6 +23,10 @@ rules:
   resources:
   - admirales/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - crew.testproject.org
@@ -49,6 +53,10 @@ rules:
   resources:
   - captains/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - crew.testproject.org
@@ -95,6 +103,10 @@ rules:
   resources:
   - lakers/finalizers
   verbs:
+  - create
+  - delete
+  - get
+  - list
   - update
 - apiGroups:
   - crew.testproject.org

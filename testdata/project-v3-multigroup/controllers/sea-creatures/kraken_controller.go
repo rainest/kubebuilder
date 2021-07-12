@@ -35,7 +35,7 @@ type KrakenReconciler struct {
 
 //+kubebuilder:rbac:groups=sea-creatures.testproject.org,resources=krakens,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=sea-creatures.testproject.org,resources=krakens/status,verbs=get;update;patch
-//+kubebuilder:rbac:groups=sea-creatures.testproject.org,resources=krakens/finalizers,verbs=update
+//+kubebuilder:rbac:groups=sea-creatures.testproject.org,resources=krakens/finalizers,verbs=get;list;update;create;delete
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.
